@@ -151,10 +151,39 @@
 
                  // LOGICAL OPERATORS
 
-let x = 3;
-let y = 9;
+// let x = 3;
+// let y = 9;
 
-console.log(x<y && x==5)
-console.log(x>y || x==5)
-console.log(!false);
-console.log(!true);
+// console.log(x<y && x==5)
+// console.log(x>y || x==5)
+// console.log(!false);
+// console.log(!true);
+
+
+
+
+
+
+
+
+
+
+                             //Conditional Expressions
+
+
+
+// let a = prompt("Hello Whats your age ");
+
+
+// console.log(a);
+
+
+let a = prompt("hey whats your age?")
+
+
+
+a = Number.parseInt(a)   //it converting string to a number
+
+if(a>0){
+    alert("this is a valid age")
+}
