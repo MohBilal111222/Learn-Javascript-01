@@ -178,12 +178,127 @@
 // console.log(a);
 
 
-let a = prompt("hey whats your age?")
+// let a = prompt("hey whats your age?")
 
 
 
-a = Number.parseInt(a)   //it converting string to a number
+// a = Number.parseInt(a)   //it converting string to a number
 
-if(a>0){
-    alert("this is a valid age")
+                       
+
+
+//this is if statement 
+
+// if(a>0){
+//     alert("this is a valid age")     
+// }
+
+
+//this is If Else statement
+
+// if(a>0){
+//     alert("this is a valid age")     
+// }else{
+//     alert("this age is not valid")
+// }
+
+
+
+
+//else if else if statement
+
+
+
+// if(a<0){
+//     alert("this is a valid age")     
+// }
+// else if(a<8){
+//     alert("you are kid you cannot drive now! ")
+// }
+// else if(a<18 && a>=8){
+//     alert("you are young and you thing after 18")
+// }
+// else{
+//     alert("You can drive now ...")
+// }
+
+
+
+
+                           
+
+                //my practice
+
+
+// if (a<0){
+//     alert("this is a valid age")
+// }
+// else if(a<10){
+//     alert("you are soo young to get married.")
+// }
+// else if(a<50 && a>=18){
+//     alert("You are ready to getting married.")
+// }
+// else{
+//     alert("this age is not valid..")
+// }
+
+
+
+
+
+                             //Ternary Operators
+
+// console.log("you can" , a<18? "not married yet" : "getting married .");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem no 1
+
+let age = prompt(" what is your age ?")
+if (age>10 && age<20){
+   console.log("your age lies between 10 or 20");
 }
+else{
+    console.log("your age is doesnot lies between 10 and 20");
+    
+}
+
+
